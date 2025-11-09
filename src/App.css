@@ -1,3 +1,17 @@
+.clear-logo-login{
+  display: none;
+}
+
+
+@media only screen and (min-width: 767px) {
+  .clear-logo-login{
+    display: block;
+  }
+  .bg-logo-login{
+    display: none;
+  }
+}
+
 /*#root {
   max-width: 1280px;
   margin: 0 auto;
