@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function HRSidebar({ active = "Dashboard", defaultCollapsed = false }) {
+export default function Sidenav ({ active = "Dashboard", defaultCollapsed = false }) {
   const [collapsed, setCollapsed] = useState(defaultCollapsed);
   const [open, setOpen] = useState({
     Employees: false,
@@ -173,11 +173,11 @@ function NavItem({ label, icon: Icon, active, caret, collapsed, open, onToggle }
   );
 }
 
-export function HRLayout({ children }) {
+export function NavSide ({ children }) {
   const [collapsed, setCollapsed] = useState(false);
   return (
     <div className="h-screen w-screen grid grid-cols-[auto_1fr] bg-black">
-      <HRSidebar defaultCollapsed={collapsed} />
+      <Sidenav defaultCollapsed={collapsed} />
       <main className="bg-white text-gray-900 overflow-y-auto">
         <div className="p-6">{children}</div>
       </main>
