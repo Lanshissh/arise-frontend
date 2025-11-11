@@ -5,10 +5,8 @@ import './App.css'
 import { Routes, Route, Navigate, Outlet } from 'react-router-dom'
 import { NavSide } from "./pages/components/sidenav"
 import Login from "./pages/login"
+import Dashboard from './pages/dashboard'
 
-function Dashboard() {
-  return <div className="p-6">dahsboard</div>
-}
 
 function App() {
   return (

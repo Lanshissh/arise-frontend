@@ -1,0 +1,5 @@
+function Dashboard() {
+  return <div className="p-6">dashboard</div>
+}
+
+export default Dashboard;

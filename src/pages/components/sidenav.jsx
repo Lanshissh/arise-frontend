@@ -65,12 +65,10 @@ export default function Sidenav ({ active = "Dashboard", defaultCollapsed = fals
     <aside
       className={
         `relative h-screen ${collapsed ? "w-16" : "w-64"} ` +
-        "bg-gradient-to-b from-[#8b0000] to-[#7e0000] text-white shadow-inner transition-[width] duration-200 ease-in-out"
+        "bg-gradient-to-b from-[#8b0000] to-[#7e0000] text-white shadow-inner transition-[width] duration-200 ease-in-out rounded-tr-3xl"
       }
     >
-      <div className="relative">
-        <div className="absolute -right-6 -top-6 h-12 w-12 rounded-full bg-[#8b0000]" />
-      </div>
+     
 
       <div className="flex items-center justify-between px-3 pt-4 pb-3">
         <button
@@ -176,7 +174,7 @@ function NavItem({ label, icon: Icon, active, caret, collapsed, open, onToggle }
 export function NavSide ({ children }) {
   const [collapsed, setCollapsed] = useState(false);
   return (
-    <div className="h-screen w-screen grid grid-cols-[auto_1fr] bg-black">
+    <div className="h-screen w-screen grid grid-cols-[auto_1fr">
       <Sidenav defaultCollapsed={collapsed} />
       <main className="bg-white text-gray-900 overflow-y-auto">
         <div className="p-6">{children}</div>
