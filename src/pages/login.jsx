@@ -31,11 +31,11 @@ function Login(){
 
                         <div className="pt-8 flex gap-6 pb-3">
                             <button type="submit" 
-                                className="text-white lg:text-lg md:text-md text-sm bg-[#990100] border-0 py-2 px-6 lg:w-95 md:w-75 w-70 focus:outline-none hover:bg-[#ad3332] rounded text-lg contact-btn transform hover:scale-105 hover:shadow-lg text-center rounded-3xl">
+                                className="text-white lg:text-lg md:text-md text-sm bg-[#990100] border-0 py-[6px] px-6 lg:w-95 md:w-75 w-70 focus:outline-none hover:bg-[#ad3332] rounded text-lg contact-btn transform hover:scale-105 hover:shadow-lg text-center rounded-3xl font-bold">
                                 LOGIN
                             </button>
                         </div>      
-                        <a href = "#" className="underline font-bold text-[#483D3D]">Forgot Password?</a>
+                        <a href = "#" className="underline font-bold text-[#483D3D] hover:text-[#7e7777] md:text-md text-sm">Forgot Password?</a>
                     </div>
                 </div>
 
