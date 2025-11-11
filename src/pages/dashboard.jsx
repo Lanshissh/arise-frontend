@@ -14,9 +14,9 @@ function Dashboard() {
             <div className="p-7 p-5">
                 <h1 className="text-2xl text-[#990100] font-bold">Good Afternoon, Reuel Christian!</h1>
 
-                <div className="pt-7">
+                <div className="pt-7  ">
 
-                    <Calendar className={`p-3 shadow-lg`}/>
+                    <Calendar className={`p-3 shadow-lg justify-center items-center`}/>
 
                 </div>
             </div>
