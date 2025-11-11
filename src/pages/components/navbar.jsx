@@ -19,7 +19,7 @@ function Navbar() {
                     <button  onClick={profileDropdown} className="flex items-center bg-white md:py-1 py-[6px] md:px-2 px-3  rounded-lg hover:border hover:border-[#990100] cursor-pointer">
                         <img src = "icons/account-icon.png" className="lg:w-[40px] lg:h-[40px] md:w-[30px] md:h-[30px] w-[25px] h-[25px]" />
                         <p className="lg:px-3 md:px-2 px-1 md:text-sm text-xs text-[#990100]">Reuel Christian Sundiam</p>
-                        <img src = "icons/red-dropdown.png" width={"10px"} height={"10px"} />
+                        <img src = "icons/red-dropdown.png" width={"10px"} height={"10px"} className={`${isOpen ? "rotate-180" : "" }`} />
                     </button>
                 </div>
             </div>
