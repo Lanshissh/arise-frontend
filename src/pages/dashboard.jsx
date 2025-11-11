@@ -1,5 +1,14 @@
+import Navbar from "./components/navbar";
+
 function Dashboard() {
-  return <div className="p-6">dashboard</div>
+
+    return(
+        <div>
+            <Navbar />
+
+            
+        </div>
+    )
 }
 
 export default Dashboard;
